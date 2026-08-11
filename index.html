@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="ms">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bait At Ta'lim Assegaff</title>
+  <meta name="description" content="Pusat Pengajian Al-Quran, Tajwid & Fardhu Ain">
+
+  <style>
+    :root{
+      --bg:#070b18;
+      --card:#141b2d;
+      --card2:#10172a;
+      --line:#263653;
+      --blue:#22c7ff;
+      --gold:#ffc400;
+      --text:#f5f7ff;
+      --muted:#aab5ca;
+      --green:#20c879;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Arial,Helvetica,sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(circle at 50% 0%, rgba(35,92,180,.28), transparent 35%),
+        linear-gradient(180deg,#0b1030 0%,#070b18 55%,#050813 100%);
+      min-height:100vh;
+    }
+    .wrap{max-width:720px;margin:auto;padding:18px 12px 40px}
+    .hero{text-align:center;padding:10px 8px 18px}
+    .logo{
+      width:100px;height:100px;border-radius:18px;object-fit:cover;
+      background:#fff;padding:7px;margin:0 auto 12px;display:block;
+      box-shadow:0 0 30px rgba(255,196,0,.16);
+    }
+    .logo-placeholder{
+      width:100px;height:100px;border-radius:18px;margin:0 auto 12px;
+      display:flex;align-items:center;justify-content:center;
+      background:#fff;color:#222;font-weight:800;font-size:12px;
+    }
+    h1{font-size:28px;margin:5px 0 7px;letter-spacing:.4px}
+    .sub{color:var(--blue);font-size:14px;line-height:1.5}
+    .tagline{color:var(--muted);font-size:13px;margin-top:6px}
+
+    .notice{
+      border:1px solid rgba(34,199,255,.65);
+      background:rgba(20,27,45,.88);
+      border-radius:28px;padding:12px 16px;margin:12px 0;
+      text-align:center;color:#dce7ff;font-size:14px;
+    }
+    .notice strong{color:var(--gold)}
+
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0}
+    .stat{
+      background:rgba(20,27,45,.9);border:1px solid var(--line);
+      border-radius:13px;padding:12px 6px;text-align:center
+    }
+    .stat b{display:block;font-size:20px;color:var(--blue)}
+    .stat span{font-size:10px;color:var(--muted);text-transform:uppercase}
+
+    .buttons{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:14px 0 20px}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;gap:7px;
+      border:1px solid var(--blue);border-radius:24px;padding:10px 16px;
+      text-decoration:none;color:#dff7ff;background:#0d1830;font-weight:700;font-size:13px
+    }
+    .btn.primary{background:var(--gold);border-color:var(--gold);color:#151515}
+    .btn.green{border-color:var(--green);color:#caffea}
+
+    .card{
+      background:linear-gradient(180deg,rgba(20,27,45,.97),rgba(15,22,39,.97));
+      border:1px solid var(--line);border-radius:18px;padding:18px;margin:14px 0;
+      box-shadow:0 12px 30px rgba(0,0,0,.2)
+    }
+    .title{font-size:20px;color:var(--gold);margin:0 0 14px}
+    .title small{display:block;color:var(--muted);font-size:12px;margin-top:5px}
+
+    .program{
+      display:flex;gap:12px;padding:12px 0;border-bottom:1px solid #24304a
+    }
+    .program:last-child{border-bottom:0}
+    .icon{
+      min-width:42px;height:42px;border-radius:12px;background:#0b2340;
+      display:flex;align-items:center;justify-content:center;font-size:20px
+    }
+    .program b{display:block;margin-bottom:4px}
+    .program span{color:var(--muted);font-size:13px;line-height:1.5}
+
+    .formbox{
+      text-align:center;padding:10px 0 4px
+    }
+    .status{
+      padding:18px;border-radius:12px;background:#102c22;
+      border:1px solid rgba(32,200,121,.45);color:#bff5d9;margin-bottom:12px
+    }
+    .status b{display:block;color:#32df91;font-size:18px;margin-bottom:5px}
+
+    .steps{margin:0;padding-left:20px;color:#d9e2f4}
+    .steps li{padding:6px 0;line-height:1.45}
+    .footer{text-align:center;color:#77839b;font-size:11px;padding:16px 8px}
+    @media(max-width:420px){
+      h1{font-size:24px}
+      .grid{gap:6px}
+      .stat{padding:10px 4px}
+      .btn{padding:9px 13px}
+    }
+  </style>
+</head>
+
+<body>
+<div class="wrap">
+
+  <header class="hero">
+    <!-- Gantikan bahagian ini dengan logo Bait At Ta'lim -->
+    <div class="logo-placeholder">LOGO<br>BAIT AT TA'LIM</div>
+
+    <h1>BAIT AT TA'LIM ASSEGAFF</h1>
+    <div class="sub">PUSAT PENGAJIAN AL-QURAN, TAJWID & FARDHU AIN</div>
+    <div class="tagline">Kelas Mengaji Kanak-Kanak & Dewasa</div>
+
+    <div class="notice">
+      🕌 <strong>PENDAFTARAN PELAJAR</strong><br>
+      Sesi pengajian 2026
+    </div>
+  </header>
+
+  <div class="grid">
+    <div class="stat"><b>—</b><span>Pelajar</span></div>
+    <div class="stat"><b>—</b><span>Slot</span></div>
+    <div class="stat"><b>2026</b><span>Sesi</span></div>
+  </div>
+
+  <div class="buttons">
+    <!-- Gantikan # dengan link Google Form anda -->
+    <a class="btn primary" href="#" onclick="alert('Nanti kita sambungkan ke Google Form pendaftaran.')">📝 Daftar Pelajar</a>
+    <a class="btn" href="#program">📚 Program</a>
+    <a class="btn green" href="#cara">ℹ️ Maklumat</a>
+  </div>
+
+  <section class="card" id="program">
+    <h2 class="title">📚 Program Pengajian</h2>
+
+    <div class="program">
+      <div class="icon">📖</div>
+      <div>
+        <b>Al-Quran & Iqra'</b>
+        <span>Pembelajaran secara talaqqi mengikut tahap kemampuan pelajar.</span>
+      </div>
+    </div>
+
+    <div class="program">
+      <div class="icon">🕌</div>
+      <div>
+        <b>Tajwid</b>
+        <span>Pembelajaran asas dan pengukuhan hukum-hukum tajwid.</span>
+      </div>
+    </div>
+
+    <div class="program">
+      <div class="icon">📜</div>
+      <div>
+        <b>Fardhu Ain</b>
+        <span>Asas ilmu agama dan amali untuk membentuk kefahaman pelajar.</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2 class="title">📝 Borang Pendaftaran</h2>
+    <div class="formbox">
+      <div class="status">
+        <b>PENDAFTARAN DIBUKA</b>
+        Isi borang secara online. Maklumat akan direkodkan untuk rujukan guru.
+      </div>
+      <a class="btn primary" href="#" onclick="alert('Nanti kita masukkan link Google Form sebenar di sini.')">BUKA BORANG PENDAFTARAN</a>
+    </div>
+  </section>
+
+  <section class="card" id="cara">
+    <h2 class="title">🛡️ Cara Pendaftaran</h2>
+    <ol class="steps">
+      <li>Tekan butang <b>Daftar Pelajar</b>.</li>
+      <li>Isi maklumat pelajar dan penjaga.</li>
+      <li>Hantar borang.</li>
+      <li>Guru akan menyemak permohonan.</li>
+      <li>Maklumat pelajar disimpan untuk rekod pengajian.</li>
+    </ol>
+  </section>
+
+  <section class="card">
+    <h2 class="title">📞 Hubungi Kami</h2>
+    <p style="color:var(--muted);line-height:1.6">
+      Untuk pertanyaan mengenai kelas, jadual dan pendaftaran, sila hubungi pihak
+      Bait At Ta'lim Assegaff melalui WhatsApp.
+    </p>
+    <a class="btn green" href="#" onclick="alert('Nanti kita masukkan nombor WhatsApp anda.')">💬 WhatsApp</a>
+  </section>
+
+  <div class="footer">
+    © 2026 Bait At Ta'lim Assegaff · Semua hak cipta terpelihara
+  </div>
+</div>
+</body>
+</html>
